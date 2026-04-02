@@ -1,6 +1,8 @@
-# Nexus-V2-Draft
-Adding the Speech-to-Text (STT) feature on the flowchart
+## System Architecture
 
+The following diagram illustrates the data flow from the initial meeting recording through to task synchronization in project management tools.
+
+```mermaid
 graph TD
   %% Input Triggers & STT Layer
   A0[Meeting Audio/Video File] -->|OpenAI Whisper API| A1[Meeting Transcript]
